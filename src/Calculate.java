@@ -11,6 +11,8 @@ public class Calculate {
         System.out.println(mswitcher.meterToCentimeter(a)+" centimeter to meter "+mswitcher.centimeterToMeter(mswitcher.meterToCentimeter(a)));
         System.out.println(mswitcher.meterToMillimeter(a) +" millimeter to meter: "+mswitcher.millimeterToMeter(mswitcher.meterToMillimeter(a)));
 
+        int hours = 14;
 
+        System.out.println(hours+ " hours to millisec " + mswitcher.hourToMinute(mswitcher.minuteToSec(mswitcher.secToMillisec(hours))));
     }
 }
